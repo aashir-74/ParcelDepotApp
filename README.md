@@ -10,16 +10,58 @@ This project simulates a depot worker processing customers in a queue and collec
 
 The application models a parcel-collection workflow where customers wait in a queue, a worker processes each customer, calculates fees, and releases parcels. Parcel data is stored in a map structure, and all system events are recorded in a central log. A GUI (launched by the Manager class) displays the process.
 
+## Application Screenshots
+
+### Main
+<img src="Main.png" width="400">
+
+---
+
+### Add Customer
+<img src="Customer_Add.png" width="400">
+
+---
+
+### Customer Add Success
+<img src="Customer_Add_Success.png" width="400">
+
+---
+
+### Add Parcel
+<img src="Parcel_Add.png" width="400">
+
+---
+
+### Parcel Add Success
+<img src="Parcel_Add_Success.png" width="400">
+
+---
+
+### Parcel Fee Calculation
+<img src="Parcel_Fee_Calculation.png" width="400">
+
+---
+
+
 ## System Diagrams
 
 ### Use Case Diagram
-![Use Case Diagram](ParcelDepotApp_UseCaseDiagram.png)
+<img src="ParcelDepotApp_UseCaseDiagram.png" width="600">
+
+---
 
 ### Class Diagram
-![Class Diagram](ParcelDepotApp_ClassDiagram.png)
+<img src="ParcelDepotApp_ClassDiagram.png" width="600">
 
-### 3-tier System Architecture Diagram
-![3-tier System Architecture Diagram Diagram](ParcelDepotApp_SystemArchitectureDiagram.png)
+---
+
+### 3-Tier System Architecture Diagram
+<img src="ParcelDepotApp_SystemArchitectureDiagram.png" width="600">
+
+---
+
+
+
 
 ## **Key Classes**
 
